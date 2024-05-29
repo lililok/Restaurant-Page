@@ -11,4 +11,5 @@ export function loadContent() {
     
     contentDiv.appendChild(heading);
     contentDiv.appendChild(paragraph);
+    contentDiv.appendChild(img);
 }
