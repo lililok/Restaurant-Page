@@ -1,4 +1,4 @@
-export function loadContent() {
+export function homeLoad() {
     const contentDiv = document.getElementById('content');
 
     const heading = document.createElement('h4');
