@@ -9,7 +9,7 @@ export function homeLoad() {
     const text = document.createElement('div');
     text.className = 'home-content-text';
 
-    const heading = document.createElement('h4');
+    const heading = document.createElement('h1');
     heading.textContent = 'Welcome to Sweetie!';
     heading.className = 'home-heading';
     
