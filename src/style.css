@@ -6,13 +6,14 @@
 body {
     width: 100%;
     height: 100vh;
-    background-image: url('./images/background-home.jpg');
+    background-image: url('./images/background.jpg');
     background-attachment: fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* header */
@@ -32,11 +33,40 @@ nav {
 /* content */
 
 #content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;
-    width: 60%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    width: 70%;
+    height: 100%;
     margin: 30px;
+    align-content: center;
 }
+
+/* home */
+
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-img {
+    width: 800px;
+}
+
+.home-content-text {
+    text-align: center;
+    align-content: center;
+}
+
+.home-heading {
+    margin-bottom: 50px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.home-p {
+    text-align: center;
+}
+
+/* menu */
+
+/* about */
