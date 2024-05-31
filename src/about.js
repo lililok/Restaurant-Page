@@ -2,6 +2,7 @@ import aboutImg from './images/about.png';
 
 export function aboutLoad() {
     const contentDiv = document.getElementById('content');
+    contentDiv.classList.add('about-active');
 
     const aboutContent = document.createElement('div');
     aboutContent.className = 'about-content';
@@ -27,10 +28,8 @@ export function aboutLoad() {
     imgEnd.alt = 'about img';
     imgEnd.className = 'about-img';
 
-    aboutContent.appendChild(imgStart);
     text.appendChild(heading);
     text.appendChild(paragraph);
     aboutContent.appendChild(text);
-    aboutContent.appendChild(imgEnd);
     contentDiv.appendChild(aboutContent);
 }

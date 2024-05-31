@@ -24,6 +24,7 @@ function navBar() {
             const contentLoader = tabFunction[button.id];
             if (contentLoader) {
                 content.innerHTML = ''; 
+                content.classList.remove('about-active');
                 contentLoader();
             }
         });
